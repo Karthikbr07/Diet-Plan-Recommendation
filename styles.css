@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  margin-top: auto;
+  padding: 250px;
+  background-color: #ffffff;
+  background-image: url("diet2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-resolution: from-image;
+  image-resolution: 300dpi;
+  image-resolution: from-image 300dpi;
+  image-resolution: 300dpi snap;
+}
+div {
+  width: 500px;
+  position: left;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  box-shadow: 2px 2px 20px #919191;
+  align-content: flex-start;
+  border-radius: 10px;
+}
+
+.container {
+  width: 50px;
+  margin: 20px;
+  background-color: #4b4b49;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  padding: 100px;
+}
+
+h1 {
+  margin-top: 0;
+  color: #03f2f6;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #03f2f6;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+input[type="number"],
+select {
+  width: calc(100% - 2px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #742525;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  width: calc(100% - 20px);
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fffefe;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.result {
+  margin-top: 25px;
+  margin-right: 5px;
+  border-top: 3px solid #fdf9f9;
+  padding-top: 20px;
+}
+.result h3 {
+  margin-top: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 80%;
+}
+
+.result ul {
+  list-style: none;
+  padding: 0;
+}
+
+.result li {
+  margin-bottom: 10px;
+  color: #060606;
+  padding-left: 20px;
+  position: relative;
+  color: #fdf9f9;
+}
+
+.result li:before {
+  content: "\2022";
+  position: center;
+  left: 0;
+  color: #4caf50;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("https://cdn.jsdelivr.net/gh/thexpeditioner/Flag-css3@master/flags/flags.png")
+    no-repeat scroll 0 0 transparent;
+  padding-left: 20px;
+  background-size: 300px auto;
+  border: 1px solid #5c5a5a;
+  border-radius: 5px;
+  font-size: 100%;
+  background-color: rgb(246, 244, 244);
+}
